@@ -34,7 +34,7 @@ $$E[X] = \int_{-\infty}^{\infty} x f(x) dx$$
 
 Bias in machine learning refers to the error introduced by approximating a real-world problem, which may lead to systematic errors in predictions or estimations. For estimators (functions used to estimate parameters of a distribution), bias measures the difference between the expected value of the estimator and the true value of the parameter being estimated.
 
-- **Mathematically**: If $\hat{\theta}$ is an estimator for the parameter $ \theta $, the bias of $\hat{\theta}$ is defined as:
+- **Mathematically**: If $\hat{\theta}$ is an estimator for the parameter $\theta $, the bias of $\hat{\theta}$ is defined as:
 $$\text{Bias}(\hat{\theta}) = E[\hat{\theta}] - \theta$$
 
 An estimator is called unbiased if its bias is 0 for all values of $\theta$, meaning on average, it accurately predicts the parameter.
