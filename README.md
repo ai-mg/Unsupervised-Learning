@@ -25,10 +25,10 @@ Understanding the concepts of expectation, bias, and variance is crucial for gra
 The expectation (or expected value) is a core concept in probability theory and statistics, reflecting the average outcome one can expect from a random variable. Mathematically, it's the weighted average of all possible values that this random variable can take on, with the weights being the probabilities of each outcome.
 
 - **For Discrete Random Variables**: If you have a discrete random variable $X$ that can take on values $x_1, x_2, ..., x_n$ with probabilities $P(X=x_1), P(X=x_2), ..., P(X=x_n)$, the expectation is given by:
-$$ E[X] = \sum_{i=1}^{n}x_iP(X=x_i) $$
+$$E[X] = \sum_{i=1}^{n}x_iP(X=x_i)$$
 
 - **For Continuous Random Variables**: If $X$ is continuous with a probability density function $f(x)$, the expectation is:
-$$E[X] = \int_{-\infty}^{\infty} x f(x) dx $$
+$$E[X] = \int_{-\infty}^{\infty} x f(x) dx$$
 
 ### 2. Bias
 
